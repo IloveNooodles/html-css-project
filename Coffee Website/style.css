@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: aqua;
+  gap: 3em;
+}
+
+.nav > ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.nav > ul > li {
+  padding: 1em;
+  list-style: none;
+  font-size: 1.5em;
+}
